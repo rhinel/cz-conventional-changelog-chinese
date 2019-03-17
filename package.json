@@ -1,7 +1,7 @@
 {
   "name": "cz-conventional-changelog-chinese",
   "version": "1.0.0",
-  "description": "中文版的cz-conventional-changelog，对中文开发者友好。",
+  "description": "中文版的cz-conventional-changelog，对中文开发者友好",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
