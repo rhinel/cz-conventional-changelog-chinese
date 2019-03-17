@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "echo '需要建立测试！'",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release --prepare && npm publish && semantic-release --publish"
   },
   "homepage": "https://github.com/rhinel/cz-conventional-changelog-chinese",
   "repository": {
