@@ -1,46 +1,46 @@
 {
   "types": {
-    "功能": {
+    "feat": {
       "description": "一个新的功能提交",
       "title": "功能"
     },
-    "修复": {
+    "fix": {
       "description": "一次修复错误的提交",
       "title": "修复"
     },
-    "文档": {
+    "docs": {
       "description": "只是文档/注释的修改提交",
       "title": "文档"
     },
-    "格式": {
+    "style": {
       "description": "不影响代码含义的修改提交 (空格, 格式化, 缺少的分号, 等等)",
       "title": "格式"
     },
-    "重构": {
+    "refactor": {
       "description": "既不修复错误也不添加功能的代码更改提交",
       "title": "重构"
     },
-    "优化": {
+    "perf": {
       "description": "可以提高性能的代码更改提交",
       "title": "优化"
     },
-    "测试": {
+    "test": {
       "description": "添加缺失测试或更正现有测试的更改提交",
       "title": "测试"
     },
-    "构建": {
+    "build": {
       "description": "影响构建系统或外部依赖项的更改提交 (例如: webpack, test, npm, 等等)",
       "title": "构建"
     },
-    "流水线": {
+    "ci": {
       "description": "CI配置文件和脚本的更改提交 (例如: 神兵, git hooks, Travis, Circle, BrowserStack, SauceLabs, 等等)",
       "title": "流水线"
     },
-    "杂项": {
+    "chore": {
       "description": "其他不修改src或测试文件的更改提交",
       "title": "杂项"
     },
-    "恢复": {
+    "revert": {
       "description": "恢复以前的代码的更改提交",
       "title": "恢复"
     }
