@@ -17,10 +17,10 @@ module.exports = function (options) {
 
   var types = options.types;
 
-  var length = longest(Object.keys(types)).length + 1;
+  var length = longest(Object.values(types).map(_ => _.title)).length + 1;
   var choices = map(types, function (type, key) {
     return {
-      name: rightPad(key + ':', length) + ' ' + type.description,
+      name: rightPad(type.title + ':', length) + ' ' + type.description,
       value: key
     };
   });
